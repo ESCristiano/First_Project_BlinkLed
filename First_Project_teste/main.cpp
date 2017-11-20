@@ -26,11 +26,11 @@ void vLEDTask( void *pvParameters )
 		GPIO_ToggleBits(GPIOD, GPIO_Pin_12);
 		vTaskDelay(500 / portTICK_RATE_MS);	
 		GPIO_ToggleBits(GPIOD, GPIO_Pin_13);
-		vTaskDelay(50 / portTICK_RATE_MS);	
+		vTaskDelay(500 / portTICK_RATE_MS);	
 		GPIO_ToggleBits(GPIOD, GPIO_Pin_14);
 		vTaskDelay(500 / portTICK_RATE_MS);	
-//		GPIO_ToggleBits(GPIOD, GPIO_Pin_15);
-//		vTaskDelay(50 / portTICK_RATE_MS);	
+		GPIO_ToggleBits(GPIOD, GPIO_Pin_15);
+		vTaskDelay(500 / portTICK_RATE_MS);	
 	}
 }
 
