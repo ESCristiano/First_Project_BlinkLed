@@ -1,0 +1,3 @@
+[submodule "FPGA_Lockstep"]
+	path = FPGA_Lockstep
+	url = https://github.com/ESCristiano/FPGA_Lockstep.git
